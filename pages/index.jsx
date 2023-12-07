@@ -5,7 +5,7 @@ import { getFeaturedPosts } from '@/services';
 import Head from 'next/head';
 
 
-function test({posts}) {
+function test({ posts }) {
   return (
     <>
       <Head>
@@ -25,7 +25,7 @@ export async function getStaticProps() {
   const posts = (await getFeaturedPosts()) || []
 
   return {
-      props: { posts }
+    props: { posts }
   }
 }
 

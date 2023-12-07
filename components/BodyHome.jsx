@@ -18,7 +18,7 @@ import te from '/public/images/logo/te.png'
 import tm from '/public/images/logo/tm.png'
 import ts from '/public/images/logo/ts.png'
 import prabowo from '/public/images/carousel/prabowo.jpeg'
-import rektor from '/public/images/carousel/rektor.png'
+import rektor from '/public/images/carousel/rektor.jpg'
 import werijon from '/public/images/carousel/werijon.png'
 
 import { Program, NewsCarousel } from ".";
@@ -348,7 +348,7 @@ const BodyHome = ({ featuredPosts }) => {
                            terkemuka di dunia.
                         </p>
                         <p className="sm:text-md text-center text-sm font-bold md:text-lg lg:text-xl xl:text-2xl">
-                           <br />- Amarulla Octavian -
+                           <br />- Jonni Mahroza -
                         </p>
                      </div>
                   </div>

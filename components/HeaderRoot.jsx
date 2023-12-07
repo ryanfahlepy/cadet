@@ -54,12 +54,6 @@ const HeaderRoot = ({ background, isOpenParent, setIsOpen }) => {
                                 <div className={`hidden md:block`}>
                                     <div className="ml-10 flex items-baseline text-white space-x-2 tracking-wide">
                                         <Link
-                                            className="px-3 py-2 font-bold hover:text-yellow-500 focus:text-yellow-500 active:text-black  md:text-base lg:text-lg"
-                                            href="/c-four"
-                                        >
-                                            C-Four
-                                        </Link>
-                                        <Link
                                             className="px-3 py-2 font-bold  hover:text-yellow-500 focus:text-yellow-500 active:text-black  md:text-base lg:text-lg"
                                             href="/"
                                         >
@@ -67,13 +61,13 @@ const HeaderRoot = ({ background, isOpenParent, setIsOpen }) => {
                                         </Link>
                                         <Link
                                             className="pr-3 pl-3 py-2 font-bold hover:text-yellow-500 focus:text-yellow-500 active:text-black  md:text-base lg:text-lg"
-                                            href="/cadet-regiment"
+                                            href="/"
                                         >
                                             Cadet Regiment
                                         </Link>
                                         <Link
                                             className="px-3 py-2 font-bold hover:text-yellow-500 focus:text-yellow-500 active:text-black  md:text-base lg:text-lg"
-                                            href="/corps-of-cadets"
+                                            href="/"
                                         >
                                             Corps of Cadet
                                         </Link>
@@ -85,9 +79,15 @@ const HeaderRoot = ({ background, isOpenParent, setIsOpen }) => {
                                         </Link>
                                         <Link
                                             className="px-3 py-2 font-bold hover:text-yellow-500 focus:text-yellow-500 active:text-black  md:text-base lg:text-lg"
-                                            href="/gallery"
+                                            href="/"
                                         >
                                             Gallery
+                                        </Link>
+                                        <Link
+                                            className="px-3 py-2 font-bold hover:text-yellow-500 focus:text-yellow-500 active:text-black  md:text-base lg:text-lg"
+                                            href="/login"
+                                        >
+                                            Login
                                         </Link>
 
                                     </div>
